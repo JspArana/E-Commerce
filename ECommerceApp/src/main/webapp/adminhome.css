@@ -1,0 +1,74 @@
+/* Page background */
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;      /* horizontal center */
+    align-items: center;          /* vertical center */
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #e3f2fd, rgb(95, 160, 158));
+}
+
+/* Main wrapper */
+.dashboard {
+    background-color: #ffffff;
+    padding: 35px 45px;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+/* Menu rows */
+.menu-1, .menu-2, .menu-3 {
+    list-style: none;
+    display: flex;
+    justify-content: center;      /* row centered */
+    gap: 22px;
+    padding: 0;
+    margin: 25px 0;
+}
+
+/* Card items */
+.menu-1 li,
+.menu-2 li,
+.menu-3 li {
+    background: #f8f9fb;
+    padding: 18px 26px;
+    border-radius: 12px;
+    min-width: 180px;
+    text-align: center;
+    font-weight: 600;
+    color: #333;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.menu-1 li:hover,
+.menu-2 li:hover,
+.menu-3 li:hover {
+    background: #4f86f7;
+    color: #ffffff;
+    transform: translateY(-5px);
+}
+
+/* Anchor styling */
+.menu-1 li a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .menu-1, .menu-2, .menu-3 {
+        flex-wrap: wrap;
+    }
+}

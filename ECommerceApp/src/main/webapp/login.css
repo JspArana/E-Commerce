@@ -1,0 +1,153 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(-45deg, #6a11cb, #2575fc, #00c6ff, #8e2de2);
+    background-size: 400% 400%;
+    animation: gradientBG 12s ease infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Animated background */
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Glass card */
+.login-container {
+    width: 400px;
+    padding: 40px 35px;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    color: #fff;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease;
+}
+
+.login-container:hover {
+    transform: translateY(-5px);
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* Input group */
+.input-box {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 14px 15px;
+    border-radius: 30px;
+    border: 1px solid rgba(255,255,255,0.3);
+    outline: none;
+    background: rgba(255, 255, 255, 0.18);
+    color: #fff;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.input-box input::placeholder {
+    color: #e0e0e0;
+}
+
+.input-box input:focus {
+    border-color: #ffffff;
+    box-shadow: 0 0 8px rgba(255,255,255,0.6);
+    background: rgba(255,255,255,0.25);
+}
+
+/* Options */
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.options label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.options input[type="checkbox"] {
+    accent-color: #fff;
+}
+
+.options a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.options a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 14px;
+    border-radius: 30px;
+    border: none;
+    background: #ffffff;
+    color: #6a11cb;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #ffffff, #e6e6e6);
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Register */
+.register {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.register a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.register a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .login-container {
+        width: 90%;
+        padding: 30px;
+    }
+}

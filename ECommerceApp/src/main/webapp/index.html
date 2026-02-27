@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aura Interiors | Luxury Decor</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f9f9f9;
+    overflow-x:hidden;
+}
+
+/* ================= HEADER ================= */
+
+header{
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    padding:18px 70px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:rgba(0,0,0,0.4);  /* Slightly darker */
+    backdrop-filter:blur(15px);
+    z-index:3000;  /* HIGHER Z-INDEX */
+}
+
+.logo{
+    font-family:'Playfair Display',serif;
+    font-size:28px;
+    font-weight:700;
+    color:white;
+    letter-spacing:1px;
+}
+
+.nav-links{
+    display:flex;
+    align-items:center;
+    gap:35px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:white;
+    font-weight:500;
+    font-size:15px;
+    position:relative;
+    transition:0.3s ease;
+}
+
+.nav-links a::after{
+    content:'';
+    position:absolute;
+    width:0%;
+    height:2px;
+    left:0;
+    bottom:-5px;
+    background:#d4af37;
+    transition:0.3s;
+}
+
+.nav-links a:hover::after{
+    width:100%;
+}
+
+.nav-links a:hover{
+    color:#d4af37;
+}
+
+/* ================= DROPDOWN ================= */
+
+.dropdown{
+    position:relative;
+}
+
+.dropdown-content{
+    position:absolute;
+    top:45px;
+    right:0;
+    background:white;
+    width:180px;
+    border-radius:12px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+    opacity:0;
+    visibility:hidden;
+    transform:translateY(10px);
+    transition:0.3s ease;
+    z-index:4000;   /* HIGHER THAN HERO */
+}
+
+.dropdown-content a{
+    display:block;
+    padding:14px;
+    color:#333;
+    font-size:14px;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.dropdown-content a:hover{
+    background:#f3f3f3;
+}
+
+.dropdown:hover .dropdown-content{
+    opacity:1;
+    visibility:visible;
+    transform:translateY(0);
+}
+
+/* ================= HERO SECTION ================= */
+
+.hero{
+    height:100vh;
+    background:
+    linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.4)),
+    url('https://images.unsplash.com/photo-1616627451515-c0f9e83f0e6f');
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    padding:20px;
+}
+
+.hero-content{
+    max-width:700px;
+    animation:fadeIn 1.5s ease;
+}
+
+.hero-content h1{
+    font-family:'Playfair Display',serif;
+    font-size:58px;
+    margin-bottom:20px;
+    line-height:1.2;
+}
+
+.hero-content p{
+    font-size:18px;
+    margin-bottom:35px;
+    letter-spacing:1px;
+}
+
+.explore-btn{
+    display:inline-block;
+    padding:14px 40px;
+    border-radius:50px;
+    background:linear-gradient(135deg,#d4af37,#b8860b);
+    color:white;
+    text-decoration:none;
+    font-weight:500;
+    font-size:15px;
+    transition:0.4s ease;
+    box-shadow:0 8px 25px rgba(0,0,0,0.3);
+}
+
+.explore-btn:hover{
+    transform:translateY(-4px);
+    box-shadow:0 12px 30px rgba(0,0,0,0.4);
+}
+
+/* ================= ANIMATION ================= */
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:900px){
+
+    header{
+        padding:18px 30px;
+    }
+
+    .hero-content h1{
+        font-size:40px;
+    }
+
+    .nav-links{
+        gap:20px;
+    }
+}
+
+@media(max-width:600px){
+
+    .hero-content h1{
+        font-size:32px;
+    }
+
+    .hero-content p{
+        font-size:14px;
+    }
+
+    .nav-links{
+        display:none;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Aura Interiors</div>
+
+    <div class="nav-links">
+        <a href="register.html">Register</a>
+        <a href="login.html">Login</a>
+
+        <div class="dropdown">
+            <a href="#">Menu ▾</a>
+            <div class="dropdown-content">
+                <a href="adminlogin.html">Admin</a>
+                <a href="#">Services</a>
+                <a href="#">Help</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Elevate Your Living Space</h1>
+        <p>Luxury Indoor Decor for Modern Homes</p>
+        <a href="login.html" class="explore-btn">Explore Collection</a>
+    </div>
+</section>
+
+</body>
+</html>
