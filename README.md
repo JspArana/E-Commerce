@@ -33,15 +33,15 @@ The application allows users to browse products, add items to cart, and place or
 
 <--------------------🧰 Technologies Used--------------->
 
-1.Frontend
+            Frontend
 
-2.HTML5
+1.HTML5
 
-3.CSS3
+2.CSS3
 
-4.Bootstrap
+3.Bootstrap
 
-Backend
+            Backend
 
 1.Java
 
@@ -49,7 +49,7 @@ Backend
 
 3.Servlets
 
-Framework & Tools
+            Framework & Tools
 
 1.Hibernate ORM
 
@@ -57,9 +57,9 @@ Framework & Tools
 
 3.Apache Tomcat
 
-4.Database
+              Database
 
-5.MySQL
+1.MySQL
 
 
 
