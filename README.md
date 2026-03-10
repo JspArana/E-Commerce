@@ -4,7 +4,7 @@ A dynamic E-Commerce Web Application built using Java, JSP, Servlets, Hibernate,
 The application allows users to browse products, add items to cart, and place orders, while the admin can manage products efficiently.
 
 📌 Features
-👤 User Features
+<--------------👤 User Features------------>
 
 1.User Registration and Login
 
@@ -18,7 +18,7 @@ The application allows users to browse products, add items to cart, and place or
 
 6.Order confirmation page
 
-🛠 Admin Features
+<-------------🛠 Admin Features------------>
 
 1.Admin login
 
@@ -30,7 +30,7 @@ The application allows users to browse products, add items to cart, and place or
 
 5.Manage product listings
 
-🧰 Technologies Used
+<--------------------🧰 Technologies Used--------------->
 
 1.Frontend
 
@@ -63,24 +63,22 @@ Framework & Tools
 
 
 
-⚙️ Setup Instructions
+<--------------⚙️ Setup Instructions-------------->
 
 
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/ecommerce-project.git
-2️⃣ Import Project
+git clone https://github.com/TechyKiran/ecommerce-project.git
 
+2️⃣ Import Project
 Import the project into Eclipse / IntelliJ IDEA as a Maven Project.
 
+
 3️⃣ Configure Database
-
 Create a MySQL database:
-
 CREATE DATABASE ecommerce;
-
 Update database configuration in:
-
 hibernate.cfg.xml
+
 
 Example:
 
@@ -90,10 +88,9 @@ jdbc:mysql://localhost:3306/ecommerce
 
 <property name="hibernate.connection.username">root</property>
 <property name="hibernate.connection.password">password</property>
+
+
 4️⃣ Run the Project
-
 Deploy the project on Apache Tomcat Server
-
 Open browser and run:
-
 http://localhost:8080/E-Commerce
