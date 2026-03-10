@@ -4,6 +4,7 @@ A dynamic E-Commerce Web Application built using Java, JSP, Servlets, Hibernate,
 The application allows users to browse products, add items to cart, and place orders, while the admin can manage products efficiently.
 
 📌 Features
+
 <--------------👤 User Features------------>
 
 1.User Registration and Login
@@ -67,7 +68,7 @@ Framework & Tools
 
 
 1️⃣ Clone the Repository
-git clone https://github.com/TechyKiran/ecommerce-project.git
+git clone [https://github.com/TechyKiran/ecommerce-project.git](https://github.com/TechyKiran/E-Commerce)
 
 2️⃣ Import Project
 Import the project into Eclipse / IntelliJ IDEA as a Maven Project.
