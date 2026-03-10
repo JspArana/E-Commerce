@@ -6,78 +6,61 @@ The application allows users to browse products, add items to cart, and place or
 📌 Features
 👤 User Features
 
-User Registration and Login
+1.User Registration and Login
 
-Browse available products
+2.Browse available products
 
-Add products to cart
+3.Add products to cart
 
-View cart items
+4.View cart items
 
-Place orders
+5.Place orders
 
-Order confirmation page
+6.Order confirmation page
 
 🛠 Admin Features
 
-Admin login
+1.Admin login
 
-Add new products
+2.Add new products
 
-Edit product details
+3.Edit product details
 
-Delete products
+4.Delete products
 
-Manage product listings
+5.Manage product listings
 
 🧰 Technologies Used
 
-Frontend
+1.Frontend
 
-HTML5
+2.HTML5
 
-CSS3
+3.CSS3
 
-Bootstrap
+4.Bootstrap
 
 Backend
 
-Java
+1.Java
 
-JSP
+2.JSP
 
-Servlets
+3.Servlets
 
 Framework & Tools
 
-Hibernate ORM
+1.Hibernate ORM
 
-Maven
+2.Maven
 
-Apache Tomcat
+3.Apache Tomcat
 
-Database
+4.Database
 
-MySQL
+5.MySQL
 
-📂 Project Structure
-E-Commerce/
-│
-├── src/main/java
-│   ├── com.ecommerce.dao
-│   ├── com.ecommerce.model
-│   ├── com.ecommerce.servlet
-│   └── com.ecommerce.util
-│
-├── src/main/webapp
-│   ├── css
-│   ├── images
-│   ├── jsp
-│   ├── index.html
-│   └── WEB-INF
-│       └── web.xml
-│
-└── pom.xml
+
 
 
 ⚙️ Setup Instructions
